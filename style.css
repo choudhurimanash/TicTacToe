@@ -16,8 +16,8 @@ body{
 }
 
 .game{
-    height: 60vmin;
-    width: 60vmin;
+    height: 64vmin;
+    width: 64vmin;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
