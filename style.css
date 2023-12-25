@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #4A0D67;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 2px solid blue;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+    font-size: 9vmin;
+    color: #492486;
+    background-color: blanchedalmond;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn:hover{
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+#reset-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#msg{
+    color: aliceblue;
+    font-size: 7vmin;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.msg-container{
+    height: 90vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
+
+h1{
+    margin-top: 1rem;
+    font-size: xxx-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+.footer{
+    color: aliceblue;
+    margin-top: 2rem;
+    background-color: #491F80;
+    padding: 0.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.github{
+    background-color: transparent;
+    color: brown;
+    height: 1.7rem;
+}
