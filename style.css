@@ -16,8 +16,8 @@ body{
 }
 
 .game{
-    height: 60vmin;
-    width: 60vmin;
+    height: 64vmin;
+    width: 64vmin;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -101,7 +101,11 @@ h1{
     color: aliceblue;
     margin-top: 2rem;
     background-color: #491F80;
+<<<<<<< HEAD
     padding: 0.8rem;
+=======
+    padding: 0.9rem;
+>>>>>>> 31df4249507873944560782dfacfba69f7f0a198
     font-weight: bold;
     display: flex;
     justify-content: center;
